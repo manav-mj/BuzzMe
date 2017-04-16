@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1020958015540",
+    "firebase_url": "https://buzzme-9a9bc.firebaseio.com",
+    "project_id": "buzzme-9a9bc",
+    "storage_bucket": "buzzme-9a9bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020958015540:android:d50c4af85d92a487",
+        "android_client_info": {
+          "package_name": "com.hungryhackers.buzzme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020958015540-f75em6i8puchfv4pc6jooll6riqpnedl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hungryhackers.buzzme",
+            "certificate_hash": "66a011ae675543cfeddef21542d118898f8dcb56"
+          }
+        },
+        {
+          "client_id": "1020958015540-rc01ffb41mds13epeasvu23r57045147.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDyrK7DULH_kXfZVeUi4cSFvwFe-MUyyA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020958015540-rc01ffb41mds13epeasvu23r57045147.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

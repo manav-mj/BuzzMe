@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:onClick="prevFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".1"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:id="@+id/prev_arrow"
+        android:visibility="visible"
+        android:src="@drawable/ic_close_white_18dp"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/container"
+        android:layout_weight=".8"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:onClick="nextFragment"
+        android:clickable="true"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".1"
+        android:scaleType="fitCenter"
+        android:id="@+id/next_arrow"
+        android:src="@drawable/ic_chevron_right_white_18dp"/>
+
+</LinearLayout>
